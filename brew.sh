@@ -5,17 +5,15 @@ set -e
 set -o pipefail
 
 # Install Homebrew
-/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+if ! hash brew  > /dev/null; then
+    /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+fi
 
 # Make sure we’re using the latest Homebrew.
 brew update
 
 # Upgrade any already-installed formulae.
 brew upgrade
-
-# Install Homebrew Cask
-brew install caskroom/cask/brew-cask
-brew tap caskroom/cask
 
 # Install GNU core utilities (those that come with macOS are outdated).
 # Don’t forget to add `$(brew --prefix coreutils)/libexec/gnubin` to `$PATH`.
@@ -59,10 +57,6 @@ brew install yarn
 brew install python
 brew install python3
 
-# Go dev tools
-brew install go
-brew install hugo
-
 # Install font tools.
 brew tap bramstein/webfonttools
 brew install sfnt2woff
@@ -71,7 +65,6 @@ brew install woff2
 
 # Install other useful binaries.
 brew install ack
-brew install awless
 brew install awscli
 brew install ffmpeg
 brew install git
@@ -85,19 +78,22 @@ brew install postgresql
 brew install rename
 brew install socat
 brew install speedtest_cli
-brew install sqlformat
+brew install homebrew/php/sqlformat
 brew install sqlite
 brew install tree
 brew install wifi-password
 brew install zopfli
+
+# Install Homebrew Cask
+brew install caskroom/cask/brew-cask
+brew tap caskroom/cask
+brew tap caskroom/fonts
 
 # Casks
 brew cask install 1password
 brew cask install caffeine
 brew cask install firefox
 brew cask install font-source-code-pro # Adobe monospace fonts
-brew cask install google-chrome
-brew cask install google-cloud-sdk
 brew cask install hyper
 brew cask install iterm2
 brew cask install java
@@ -111,15 +107,13 @@ brew cask install skype
 brew cask install slack
 brew cask install sonos
 brew cask install sourcetree
-brew cask install sublime-text3
+brew cask install sublime-text
 brew cask install vagrant
 brew cask install vagrant-manager
 brew cask install virtualbox
 
 # Remove outdated versions from the cellar.
 brew cleanup
+brew prune
 brew doctor
 brew cask doctor
-
-echo "Also install these:"
-echo "https://giphy.com/apps/giphycapture"
