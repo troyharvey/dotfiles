@@ -1,4 +1,4 @@
-![](http://i.giphy.com/KCh9Kkf2MILK0.gif)
+<p style="text-align:center;">![](http://i.giphy.com/KCh9Kkf2MILK0.gif)</p>
 
 ## Usage
 
