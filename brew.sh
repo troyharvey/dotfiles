@@ -76,6 +76,8 @@ brew install mysql
 brew install p7zip
 brew install postgresql
 brew install rename
+brew install ruby
+brew install rbenv
 brew install socat
 brew install speedtest_cli
 brew install homebrew/php/sqlformat
