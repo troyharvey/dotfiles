@@ -20,3 +20,7 @@ eval "$(rbenv init -)"
 # Python
 export WORKON_HOME=~/Envs
 source /usr/local/bin/virtualenvwrapper.sh
+
+# Google Cloud SDK
+source /Users/troyharvey/google-cloud-sdk/completion.bash.inc
+source /Users/troyharvey/google-cloud-sdk/path.bash.inc

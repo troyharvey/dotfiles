@@ -15,6 +15,7 @@ alias h="history"
 alias hosts="cat /etc/hosts"
 
 # Projects
+alias beluga="cd ~/Projects/Beluga"
 
 # Detect which `ls` flavor is in use
 if ls --color > /dev/null 2>&1; then # GNU `ls`
