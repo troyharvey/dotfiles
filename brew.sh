@@ -71,7 +71,6 @@ brew install git
 brew install git-lfs
 brew install imagemagick --with-webp
 brew install jq
-brew install mas
 brew install mysql
 brew install p7zip
 brew install postgresql
@@ -113,6 +112,12 @@ brew cask install sublime-text
 brew cask install vagrant
 brew cask install vagrant-manager
 brew cask install virtualbox
+
+# Mac App Store
+brew install mas
+
+mas install 1020812363 # CopyClip
+mas install 668208984 # GIPHY Capture
 
 # Remove outdated versions from the cellar.
 brew cleanup

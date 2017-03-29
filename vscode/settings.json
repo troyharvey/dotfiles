@@ -1,0 +1,20 @@
+{
+    "workbench.welcome.enabled": false,
+    "explorer.openEditors.visible": 0,
+    "files.exclude": {
+        "**/*.pyc": true
+    },
+    
+    // When enabled, insert a final new line at the end of the file when saving it.
+    "files.insertFinalNewline": true,
+
+    // List of paths to libraries and the like that need to be imported by auto complete engine. E.g. when using Google App SDK, the paths are not in system path, hence need to be added into this list.
+    "python.autoComplete.extraPaths": [
+        "/Users/troyharvey/Projects/google_appengine",
+        "/Users/troyharvey/Projects/google_appengine/lib"
+    ],
+
+    "python.linting.pylintEnabled": false,
+
+    "python.linting.flake8Enabled": true
+}
