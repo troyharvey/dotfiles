@@ -24,3 +24,7 @@ source /usr/local/bin/virtualenvwrapper.sh
 # Google Cloud SDK
 source ~/google-cloud-sdk/completion.bash.inc
 source ~/google-cloud-sdk/path.bash.inc
+
+# Node
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh" # This loads nvm
