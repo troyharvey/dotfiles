@@ -14,3 +14,4 @@ pip install setuptools
 pip install virtualenv
 pip install virtualenv-clone
 pip install virtualenvwrapper
+pip install csvkit
