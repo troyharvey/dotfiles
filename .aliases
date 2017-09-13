@@ -15,7 +15,7 @@ alias h="history"
 alias hosts="cat /etc/hosts"
 
 # Projects
-alias beluga="cd ~/Projects/Beluga/source"
+alias beluga="cd ~/Projects/Beluga/source && workon simple"
 
 # Detect which `ls` flavor is in use
 if ls --color > /dev/null 2>&1; then # GNU `ls`
@@ -50,14 +50,13 @@ alias ga="git add ."
 alias gc="git checkout"
 alias gcam="git commit -am"
 alias gcb="git checkout -b"
-alias gcd="git checkout develop"
 alias gcm="git commit -m"
 alias gf="git fetch"
 alias gp="git pull"
 alias gpo="git push origin"
-alias gpod="git pull origin develop"
 alias gs="git status"
 alias gne="git commit --amend --no-edit"
+alias gu="git reset HEAD~"
 
 # Enable aliases to be sudo’ed
 alias sudo='sudo '
