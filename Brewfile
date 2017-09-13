@@ -1,104 +1,105 @@
-tap 'bramstein/webfonttools'
-tap 'caskroom/cask'
-tap 'caskroom/fonts'
-tap 'homebrew/bundle'
-tap 'homebrew/core'
-tap 'homebrew/dupes'
-tap 'homebrew/php'
-tap 'homebrew/versions'
-brew 'ack'
-brew 'autoconf'
-brew 'awscli'
-brew 'readline'
-brew 'bash'
-brew 'bash-completion@2'
-brew 'git'
-brew 'openssl'
-brew 'phantomjs'
-brew 'casperjs'
-brew 'coreutils'
-brew 'lame'
-brew 'x264'
-brew 'xvid'
-brew 'ffmpeg'
-brew 'findutils'
-brew 'libpng'
-brew 'freetype'
-brew 'gdbm'
-brew 'gettext'
-brew 'git-lfs'
-brew 'gnu-sed', args: ['with-default-names']
-brew 'hugo'
-brew 'icu4c'
-brew 'jpeg'
-brew 'libtiff'
-brew 'libtool'
-brew 'xz'
-brew 'imagemagick', args: ['with-webp']
-brew 'oniguruma'
-brew 'jq'
-brew 'sqlite'
-brew 'python'
-brew 'libxml2'
-brew 'libyaml'
-brew 'mas'
-brew 'moreutils'
-brew 'mysql'
-brew 'node'
-brew 'nvm'
-brew 'p7zip'
-brew 'pcre'
-brew 'pkg-config'
-brew 'python3'
-brew 'postgresql'
-brew 'ruby-build'
-brew 'rbenv'
-brew 'rename'
-brew 'rlwrap'
-brew 'ruby'
-brew 'socat'
-brew 'speedtest_cli'
-brew 'tree'
-brew 'unixodbc'
-brew 'vim', args: ['with-override-system-vi']
-brew 'webp'
-brew 'wget'
-brew 'wifi-password'
-brew 'yarn'
-brew 'zopfli'
-brew 'bramstein/webfonttools/sfnt2woff'
-brew 'bramstein/webfonttools/sfnt2woff-zopfli'
-brew 'bramstein/webfonttools/woff2'
-brew 'homebrew/dupes/grep'
-brew 'homebrew/dupes/openssh'
-brew 'homebrew/dupes/screen'
-brew 'homebrew/php/php70'
-brew 'homebrew/php/sqlformat'
-cask '1password'
-cask 'caffeine'
-cask 'firefox'
-cask 'flux'
-cask 'font-source-code-pro'
-cask 'hyper'
-cask 'iterm2'
-cask 'java'
-cask 'licecap'
-cask 'macdown'
-cask 'namebench'
-cask 'ngrok'
-cask 'sketch'
-cask 'sketch-toolbox'
-cask 'skype'
-cask 'slack'
-cask 'sonos'
-cask 'sourcetree'
-cask 'spectacle'
-cask 'sublime-text'
-cask 'vagrant'
-cask 'vagrant-manager'
-cask 'virtualbox'
-mas 'CopyClip 2', id: 1020812363
-mas 'GIPHY CAPTURE', id: 668208984
-mas 'Numbers', id: 409203825
-mas 'Pages', id: 409201541
-mas 'Twitter', id: 409789998
+tap "bramstein/webfonttools"
+tap "caskroom/cask"
+tap "caskroom/drivers"
+tap "caskroom/fonts"
+tap "caskroom/versions"
+tap "go-delve/delve"
+tap "homebrew/bundle"
+tap "homebrew/core"
+tap "homebrew/dupes"
+tap "homebrew/php"
+tap "homebrew/versions"
+brew "ack"
+brew "awscli"
+brew "bash"
+brew "bash-completion@2"
+brew "git"
+brew "casperjs"
+brew "chromedriver"
+brew "cmake"
+brew "coreutils"
+brew "ctags"
+brew "x264"
+brew "ffmpeg"
+brew "findutils"
+brew "git-lfs"
+brew "gnu-sed", args: ["with-default-names"]
+brew "gnupg"
+brew "gnupg@1.4"
+brew "go"
+brew "graphviz"
+brew "grep"
+brew "hugo"
+brew "imagemagick", args: ["with-webp"]
+brew "jq"
+brew "m-cli"
+brew "mas"
+brew "python"
+brew "mercurial"
+brew "moreutils"
+brew "mosquitto"
+brew "mysql"
+brew "node"
+brew "nvm"
+brew "openssh"
+brew "p7zip"
+brew "pinentry-mac"
+brew "python3"
+brew "postgresql"
+brew "rbenv"
+brew "rename"
+brew "rlwrap"
+brew "screen"
+brew "selenium-server-standalone"
+brew "socat"
+brew "speedtest-cli"
+brew "sqlparse"
+brew "tree"
+brew "vim", args: ["with-override-system-vi"]
+brew "wget"
+brew "wifi-password"
+brew "yarn"
+brew "zopfli"
+brew "bramstein/webfonttools/sfnt2woff"
+brew "bramstein/webfonttools/sfnt2woff-zopfli"
+brew "bramstein/webfonttools/woff2"
+brew "go-delve/delve/delve"
+cask "1password"
+cask "caffeine"
+cask "firefox"
+cask "flux"
+cask "font-hack"
+cask "font-iosevka"
+cask "font-source-code-pro"
+cask "garmin-express"
+cask "gitify"
+cask "hyper"
+cask "iterm2"
+cask "java"
+cask "keycastr"
+cask "licecap"
+cask "macdown"
+cask "namebench"
+cask "ngrok"
+cask "sketch"
+cask "sketch-toolbox"
+cask "skype"
+cask "slack"
+cask "sonos"
+cask "sourcetree"
+cask "spectacle"
+cask "sublime-text"
+cask "vagrant"
+cask "vagrant-manager"
+cask "virtualbox"
+cask "wkhtmltopdf"
+mas "CopyClip 2", id: 1020812363
+mas "GarageBand", id: 682658836
+mas "GIPHY CAPTURE", id: 668208984
+mas "Harvest", id: 506189836
+mas "iMovie", id: 408981434
+mas "Keynote", id: 409183694
+mas "Numbers", id: 409203825
+mas "Pages", id: 409201541
+mas "Shazam", id: 897118787
+mas "Skitch", id: 425955336
