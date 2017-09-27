@@ -1,8 +1,6 @@
-PATH=/usr/local/sbin:${PATH}:./vendor/bin:~/.composer/vendor/bin
-
 # Git credentials
 GIT_AUTHOR_NAME="Troy Harvey"
-GIT_AUTHOR_EMAIL="t.harvey@brstrat.com"
+GIT_AUTHOR_EMAIL="troyharvey@gmail.com"
 
 GIT_COMMITTER_NAME="$GIT_AUTHOR_NAME"
 GIT_COMMITTER_EMAIL="$GIT_AUTHOR_EMAIL"
@@ -19,12 +17,23 @@ eval "$(rbenv init -)"
 
 # Python
 export WORKON_HOME=~/Envs
+unset PYTHONPATH
 source /usr/local/bin/virtualenvwrapper.sh
 
 # Google Cloud SDK
-source ~/google-cloud-sdk/completion.bash.inc
-source ~/google-cloud-sdk/path.bash.inc
+source /Users/troyharvey/google-cloud-sdk/completion.bash.inc
+source /Users/troyharvey/google-cloud-sdk/path.bash.inc
 
-# Node
-export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh" # This loads nvm
+# Go
+export GOPATH=$HOME/go
+export GOROOT=/usr/local/opt/go/libexec
+export PATH=$PATH:$GOPATH/bin
+export PATH=$PATH:$GOROOT/bin
+
+export RUBYOPT=-W0
+
+# Garmin Connect IQ SDK
+ export PATH=$PATH:/usr/local/bin/connectiq-sdk/bin
+
+# brew MySQL
+  export PATH="$PATH:/usr/local/opt/mysql@5.6/bin"
