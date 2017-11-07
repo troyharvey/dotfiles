@@ -10,6 +10,7 @@ tap "caskroom/versions"
 tap "caskroom/cask"
 tap "bramstein/webfonttools"
 brew "ack"
+brew "python3"
 brew "awscli"
 brew "bash"
 brew "bash-completion@2"
@@ -34,6 +35,7 @@ brew "imagemagick", args: ["with-webp"]
 brew "jq"
 brew "m-cli"
 brew "mas"
+brew "memcached"
 brew "python"
 brew "mercurial"
 brew "moreutils"
@@ -45,7 +47,6 @@ brew "openssh"
 brew "p7zip"
 brew "percona-toolkit"
 brew "pinentry-mac"
-brew "python3"
 brew "postgresql"
 brew "rbenv"
 brew "rename"
@@ -65,6 +66,8 @@ brew "bramstein/webfonttools/sfnt2woff"
 brew "bramstein/webfonttools/sfnt2woff-zopfli"
 brew "bramstein/webfonttools/woff2"
 brew "go-delve/delve/delve"
+brew "homebrew/php/composer"
+brew "homebrew/php/php70"
 cask "1password"
 cask "caffeine"
 cask "firefox"
@@ -101,6 +104,7 @@ mas "GIPHY CAPTURE", id: 668208984
 mas "Harvest", id: 506189836
 mas "iMovie", id: 408981434
 mas "Keynote", id: 409183694
+mas "Kindle", id: 405399194
 mas "Numbers", id: 409203825
 mas "Pages", id: 409201541
 mas "Shazam", id: 897118787
