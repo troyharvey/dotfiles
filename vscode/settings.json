@@ -1,4 +1,5 @@
 {
+    "window.title": "${activeEditorMedium}${separator}${rootName}",
     "workbench.welcome.enabled": false,
     "explorer.openEditors.visible": 0,
     "files.exclude": {
@@ -16,5 +17,6 @@
 
     "python.linting.pylintEnabled": false,
 
-    "python.linting.flake8Enabled": true
+    "python.linting.flake8Enabled": true,
+    "window.zoomLevel": 0
 }
