@@ -42,7 +42,7 @@ defaults write com.apple.systemuiserver menuExtras -array \
 	"/System/Library/CoreServices/Menu Extras/Battery.menu" \
 	"/System/Library/CoreServices/Menu Extras/Clock.menu"
 
-# Time options: Display the time with seconds: on - Date options: Show the day of the week: on		
+# Time options: Display the time with seconds: on - Date options: Show the day of the week: on
 defaults write com.apple.menuextra.clock DateFormat -string "MMM d h:mm"
 
 # Set highlight color to green

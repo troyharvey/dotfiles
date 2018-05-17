@@ -172,8 +172,11 @@
 	insteadOf = "gist:"
 [user]
 	name = Troy Harvey
-	email = t.harvey@brstrat.com
+	email = troyharvey@gmail.com
 	signingkey = F23DC4A53AF58A44
 
 [commit]
 	gpgsign = true
+
+[gpg]
+	program = gpg1
