@@ -16,8 +16,6 @@ brew update
 brew upgrade
 
 # Install apps from Brewfile using Homebrew Bundle
-brew tap Homebrew/bundle
-brew install caskroom/cask/brew-cask
 brew bundle
 
 # Remove outdated versions from the cellar.
