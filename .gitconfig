@@ -176,7 +176,7 @@
 	signingkey = F23DC4A53AF58A44
 
 [commit]
-	gpgsign = true
+	gpgsign = false
 
 [gpg]
-	program = gpg1
+	program = /usr/local/bin/gpg
