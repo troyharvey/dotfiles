@@ -772,6 +772,9 @@ defaults write com.twitter.twitter-mac ShowFullNames -bool true
 # Hide the app in the background if it’s not the front-most window
 defaults write com.twitter.twitter-mac HideInBackground -bool true
 
+# Add your contact info to the lock screen with this terminal command
+defaults write /Library/Preferences/com.apple.loginwindow LoginwindowText "Call 555-210-9126 or email herp@derperson.com. Reward offered."
+
 ###############################################################################
 # Kill affected applications                                                  #
 ###############################################################################
