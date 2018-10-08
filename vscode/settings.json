@@ -1,22 +1,40 @@
 {
     "window.title": "${activeEditorMedium}${separator}${rootName}",
-    "workbench.welcome.enabled": false,
     "explorer.openEditors.visible": 0,
+    "editor.fontFamily": "Fira Code",
+    "editor.fontLigatures": true,
     "files.exclude": {
+        "**/__pycache__": true,
         "**/*.pyc": true
     },
-    
     // When enabled, insert a final new line at the end of the file when saving it.
     "files.insertFinalNewline": true,
-
-    // List of paths to libraries and the like that need to be imported by auto complete engine. E.g. when using Google App SDK, the paths are not in system path, hence need to be added into this list.
-    "python.autoComplete.extraPaths": [
-        "/Users/troyharvey/Projects/google_appengine",
-        "/Users/troyharvey/Projects/google_appengine/lib"
-    ],
-
+    // When enabled, will trim trailing whitespace when saving a file.
+    "files.trimTrailingWhitespace": true,
     "python.linting.pylintEnabled": false,
-
     "python.linting.flake8Enabled": true,
-    "window.zoomLevel": 0
+    "editor.minimap.enabled": false,
+    "editor.renderWhitespace": "boundary",
+    "editor.tabSize": 4,
+    // When set, text selected in the terminal will be copied to the clipboard.
+    "terminal.integrated.copyOnSelection": true,
+    // Controls the font family of the terminal, this defaults to editor.fontFamily's value.
+    "terminal.integrated.fontFamily": "Fira Code",
+    "window.zoomLevel": 0,
+    "workbench.activityBar.visible": false,
+    "workbench.statusBar.visible": true,
+    "workbench.colorTheme": "Solarized Dark",
+    "yaml.format.enable": true,
+    "kite.editorMetricsEnabled": "yes",
+    "kite.showDocsNotificationOnStartup": false,
+    "terminal.integrated.rendererType": "dom",
+    "extensions.ignoreRecommendations": false,
+    "github.hosts": [
+        {
+            "host": "https://github.com",
+            "username": "oauth",
+            "token": "system"
+        }
+    ],
+    "editor.detectIndentation": false,
 }
