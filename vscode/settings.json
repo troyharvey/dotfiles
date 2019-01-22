@@ -1,40 +1,36 @@
 {
-    "window.title": "${activeEditorMedium}${separator}${rootName}",
-    "explorer.openEditors.visible": 0,
+    "editor.detectIndentation": false,
     "editor.fontFamily": "Fira Code",
     "editor.fontLigatures": true,
+    "editor.minimap.enabled": false,
+    "editor.renderWhitespace": "boundary",
+    "editor.tabSize": 4,
+
+    "explorer.openEditors.visible": 0,
+
+    "extensions.ignoreRecommendations": false,
+
     "files.exclude": {
         "**/__pycache__": true,
         "**/*.pyc": true
     },
-    // When enabled, insert a final new line at the end of the file when saving it.
     "files.insertFinalNewline": true,
-    // When enabled, will trim trailing whitespace when saving a file.
     "files.trimTrailingWhitespace": true,
-    "python.linting.pylintEnabled": false,
+
+
     "python.linting.flake8Enabled": true,
-    "editor.minimap.enabled": false,
-    "editor.renderWhitespace": "boundary",
-    "editor.tabSize": 4,
-    // When set, text selected in the terminal will be copied to the clipboard.
+    "python.linting.pylintEnabled": false,
+
+
     "terminal.integrated.copyOnSelection": true,
-    // Controls the font family of the terminal, this defaults to editor.fontFamily's value.
     "terminal.integrated.fontFamily": "Fira Code",
+    "terminal.integrated.rendererType": "dom",
+
+
+    "window.title": "${activeEditorMedium}${separator}${rootName}",
     "window.zoomLevel": 0,
+
     "workbench.activityBar.visible": false,
     "workbench.statusBar.visible": true,
     "workbench.colorTheme": "Solarized Dark",
-    "yaml.format.enable": true,
-    "kite.editorMetricsEnabled": "yes",
-    "kite.showDocsNotificationOnStartup": false,
-    "terminal.integrated.rendererType": "dom",
-    "extensions.ignoreRecommendations": false,
-    "github.hosts": [
-        {
-            "host": "https://github.com",
-            "username": "oauth",
-            "token": "system"
-        }
-    ],
-    "editor.detectIndentation": false,
 }
