@@ -1,6 +1,6 @@
 # Git credentials
 GIT_AUTHOR_NAME="Troy Harvey"
-GIT_AUTHOR_EMAIL="troyharvey@gmail.com"
+GIT_AUTHOR_EMAIL="troy.harvey@carta.com"
 
 GIT_COMMITTER_NAME="$GIT_AUTHOR_NAME"
 GIT_COMMITTER_EMAIL="$GIT_AUTHOR_EMAIL"
@@ -15,3 +15,22 @@ fi
 # Google Cloud SDK
 source /Users/troyharvey/google-cloud-sdk/completion.bash.inc
 source /Users/troyharvey/google-cloud-sdk/path.bash.inc
+
+# Postgres.app
+export PATH=$PATH:/Applications/Postgres.app/Contents/Versions/latest/bin
+
+# pyenv
+eval "$(pyenv init -)"
+eval "$(pyenv virtualenv-init -)"
+
+# direnv
+eval "$(direnv hook bash)"
+
+# Go
+export GOPATH=/Users/troyharvey/go
+
+# Homebrew
+export PATH="/usr/local/sbin:$PATH"
+
+# Use Homebrew installed bash as user shell
+export SHELL="/usr/local/bin/bash"
