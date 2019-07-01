@@ -6,6 +6,8 @@ alias g="git"
 alias airflow="cd ~/Projects/ds-airflow && cp .envrc.nonprod .envrc && direnv allow"
 alias redshift="cd ~/Projects/ds-redshift && cp .envrc.dev .envrc && direnv allow"
 alias resonate="cd ~/Projects/rr/app && gcloud config configurations activate resonate-recordings && gcloud container clusters get-credentials resonate-cluster"
+alias reporting="cd ~/Projects/ds-reporting-service/ && kubectx data-science.carta.dev"
+alias sensible="cd ~/go/src/github.com/sensiblehq/sdt"
 
 # Detect which `ls` flavor is in use
 if ls --color > /dev/null 2>&1; then # GNU `ls`
@@ -141,3 +143,6 @@ alias afk="/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resource
 
 # Reload the shell (i.e. invoke as a login shell)
 alias reload="exec $SHELL -l"
+
+# Format SQL on clipboard
+alias prettysql="pbpaste | sqlformat - -r -k upper | pbcopy"

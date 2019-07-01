@@ -28,9 +28,16 @@ eval "$(direnv hook bash)"
 
 # Go
 export GOPATH=/Users/troyharvey/go
+export PATH="$PATH:/Users/troyharvey/go/bin/"
 
 # Homebrew
 export PATH="/usr/local/sbin:$PATH"
 
 # Use Homebrew installed bash as user shell
 export SHELL="/usr/local/bin/bash"
+
+# PHP Composer
+export PATH="$PATH:$HOME/.composer/vendor/bin"
+
+# Laravel Spark
+export PATH="$PATH:$HOME/.spark"

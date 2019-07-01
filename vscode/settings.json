@@ -1,5 +1,5 @@
 {
-	"editor.detectIndentation": false,
+	"editor.detectIndentation": true,
 	"editor.fontFamily": "Fira Code",
 	"editor.fontLigatures": true,
 	"editor.minimap.enabled": false,
