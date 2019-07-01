@@ -7,8 +7,6 @@ tap "homebrew/cask-drivers"
 tap "homebrew/cask-fonts"
 tap "homebrew/cask-versions"
 tap "homebrew/core"
-cask "java"
-cask "java8"
 brew "ack"
 brew "openssl"
 brew "awscli"
@@ -17,8 +15,10 @@ brew "bash-completion@2"
 brew "libffi"
 brew "cayley"
 brew "cmake"
+brew "composer"
 brew "coreutils"
 brew "ctags"
+brew "libevent"
 brew "go"
 brew "direnv"
 brew "x264"
@@ -30,6 +30,7 @@ brew "libtiff"
 brew "ghostscript"
 brew "git"
 brew "git-lfs"
+brew "glide"
 brew "gnu-sed", args: ["with-default-names"]
 brew "gnupg"
 brew "gnupg@1.4"
@@ -39,7 +40,9 @@ brew "grep"
 brew "hub"
 brew "imagemagick", args: ["with-webp"]
 brew "jq"
-brew "libevent"
+brew "kops"
+brew "kubectx"
+brew "kubernetes-helm"
 brew "libmagic"
 brew "memcached"
 brew "libmemcached"
@@ -56,6 +59,7 @@ brew "node"
 brew "openssh"
 brew "p7zip"
 brew "pgformatter"
+brew "php"
 brew "pinentry-mac"
 brew "pipenv"
 brew "poppler"
@@ -68,6 +72,7 @@ brew "redis"
 brew "rename"
 brew "sassc"
 brew "shellcheck"
+brew "shfmt"
 brew "speedtest-cli"
 brew "sqlparse"
 brew "telnet"
@@ -86,6 +91,7 @@ brew "bramstein/webfonttools/woff2"
 brew "fishtown-analytics/dbt/dbt"
 cask "adobe-creative-cloud"
 cask "adobe-dng-converter"
+cask "chromedriver"
 cask "cyberduck"
 cask "dotnet-sdk"
 cask "firefox"
@@ -117,9 +123,9 @@ cask "telegram"
 cask "tunnelblick"
 cask "visual-studio-code"
 cask "zoomus"
-mas "1Password", id: 443987910
+mas "1Password 7", id: 1333542190
 mas "Amphetamine", id: 937984704
-mas "CopyClip 2", id: 1020812363
+mas "CopyClip", id: 1020812363
 mas "GarageBand", id: 682658836
 mas "GIPHY CAPTURE", id: 668208984
 mas "Harvest", id: 506189836
@@ -130,6 +136,7 @@ mas "Logitech Camera Settings", id: 638332853
 mas "MindNode", id: 1289197285
 mas "Numbers", id: 409203825
 mas "Pages", id: 409201541
+mas "PiPer", id: 1421915518
 mas "Shazam", id: 897118787
 mas "Skitch", id: 425955336
 mas "Xcode", id: 497799835
