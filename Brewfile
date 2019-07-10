@@ -9,6 +9,7 @@ tap "homebrew/cask-versions"
 tap "homebrew/core"
 brew "ack"
 brew "openssl"
+brew "python"
 brew "awscli"
 brew "bash"
 brew "bash-completion@2"
@@ -18,38 +19,33 @@ brew "composer"
 brew "coreutils"
 brew "ctags"
 brew "libevent"
-brew "go"
 brew "direnv"
+brew "jpeg"
+brew "libtiff"
 brew "x264"
 brew "ffmpeg"
 brew "findutils"
-brew "jpeg"
-brew "libtiff"
 brew "ghostscript"
 brew "git"
 brew "git-lfs"
+brew "go"
 brew "glide"
-brew "gnu-sed", args: ["with-default-names"]
 brew "gnupg"
 brew "gnupg@1.4"
 brew "golang-migrate"
-brew "graphviz", args: ["with-pango"]
 brew "grep"
 brew "hub"
-brew "imagemagick", args: ["with-webp"]
 brew "jq"
 brew "libmagic"
 brew "memcached"
 brew "libmemcached"
 brew "m-cli"
 brew "mas"
-brew "maven"
 brew "mdbtools"
 brew "mercurial"
 brew "moreutils"
 brew "mosquitto"
 brew "mysql-client"
-brew "neo4j"
 brew "node"
 brew "openssh"
 brew "p7zip"
@@ -86,6 +82,7 @@ cask "adobe-creative-cloud"
 cask "adobe-dng-converter"
 cask "chromedriver"
 cask "cyberduck"
+cask "docker"
 cask "dotnet-sdk"
 cask "firefox"
 cask "font-fira-code"
@@ -94,6 +91,7 @@ cask "font-iosevka"
 cask "font-source-code-pro"
 cask "garmin-express"
 cask "gephi"
+cask "google-chrome"
 cask "grammarly"
 cask "hyper"
 cask "iterm2"
@@ -113,18 +111,18 @@ cask "sqlworkbenchj"
 cask "tunnelblick"
 cask "visual-studio-code"
 cask "zoomus"
-mas "1Password 7", id: 1333542190
-mas "Amphetamine", id: 937984704
-mas "CopyClip", id: 1020812363
-mas "GarageBand", id: 682658836
-mas "GIPHY CAPTURE", id: 668208984
-mas "Icon Slate", id: 439697913
-mas "iMovie", id: 408981434
-mas "Keynote", id: 409183694
-mas "Logitech Camera Settings", id: 638332853
-mas "Numbers", id: 409203825
-mas "Pages", id: 409201541
-mas "PiPer", id: 1421915518
-mas "Shazam", id: 897118787
-mas "Skitch", id: 425955336
-mas "Xcode", id: 497799835
+mas "com.agilebits.onepassword7", id: 1333542190
+mas "com.amarcus.PiPer", id: 1421915518
+mas "com.apple.dt.Xcode", id: 497799835
+mas "com.apple.garageband10", id: 682658836
+mas "com.apple.iMovieApp", id: 408981434
+mas "com.apple.iWork.Keynote", id: 409183694
+mas "com.apple.iWork.Numbers", id: 409203825
+mas "com.apple.iWork.Pages", id: 409201541
+mas "com.fasthatchapps.gifgrabberosx", id: 668208984
+mas "com.fiplab.copyclip2", id: 1020812363
+mas "com.if.Amphetamine", id: 937984704
+mas "com.kodlian.Icon-Slate", id: 439697913
+mas "com.logitech.lfb.Logitech-Camera-Settings", id: 638332853
+mas "com.shazam.mac.Shazam", id: 897118787
+mas "com.skitch.skitch", id: 425955336
