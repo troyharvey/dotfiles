@@ -1,6 +1,6 @@
 # Git credentials
 GIT_AUTHOR_NAME="Troy Harvey"
-GIT_AUTHOR_EMAIL="troy.harvey@carta.com"
+GIT_AUTHOR_EMAIL="troyharvey@gmail.com"
 
 GIT_COMMITTER_NAME="$GIT_AUTHOR_NAME"
 GIT_COMMITTER_EMAIL="$GIT_AUTHOR_EMAIL"
@@ -13,8 +13,8 @@ if [ -f $(brew --prefix)/etc/bash_completion ]; then
 fi
 
 # Google Cloud SDK
-source /Users/troyharvey/google-cloud-sdk/completion.bash.inc
-source /Users/troyharvey/google-cloud-sdk/path.bash.inc
+source '/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/path.bash.inc'
+source '/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/completion.bash.inc'
 
 # Postgres.app
 export PATH=$PATH:/Applications/Postgres.app/Contents/Versions/latest/bin
