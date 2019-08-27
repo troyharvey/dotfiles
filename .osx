@@ -840,6 +840,9 @@ defaults write com.apple.systemuiserver menuExtras -array \
 # Time options: Display the time with seconds: on - Date options: Show the day of the week: on
 defaults write com.apple.menuextra.clock DateFormat -string "MMM d h:mm"
 
+# Hide all desktop icons
+defaults write com.apple.finder CreateDesktop 0
+
 ###############################################################################
 # Kill affected applications                                                  #
 ###############################################################################
