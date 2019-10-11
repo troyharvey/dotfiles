@@ -41,3 +41,6 @@ export PATH="$PATH:$HOME/.composer/vendor/bin"
 
 # Laravel Spark
 export PATH="$PATH:$HOME/.spark"
+
+# Silence zsh nonsense in Catalina
+export BASH_SILENCE_DEPRECATION_WARNING=1
