@@ -1,8 +1,18 @@
 // Place your key bindings in this file to overwrite the defaults
 [
-    {
-        "key": "cmd+t",
-        "command": "workbench.action.terminal.focus"
-    },
-    { "key": "cmd+l",                "command": "workbench.action.gotoLine" }
+	{
+		"key": "cmd+t",
+		"command": "workbench.action.terminal.focus"
+	},
+	{
+		"key": "cmd+t",
+		"command": "workbench.action.focusActiveEditorGroup",
+		"when": "terminalFocus"
+	},
+	{
+		"key": "cmd+n",
+		"command": "workbench.action.terminal.splitInActiveWorkspace",
+		"when": "terminalFocus"
+	},
+	{ "key": "cmd+l", "command": "workbench.action.gotoLine" }
 ]

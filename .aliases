@@ -4,6 +4,7 @@ alias g="git"
 
 # Projects
 alias resonate="cd ~/Projects/rr/app && gcloud config configurations activate resonate-recordings && gcloud container clusters get-credentials resonate-cluster"
+alias tts="cd ~/Projects/tts && gcloud config configurations activate tts"
 
 # Detect which `ls` flavor is in use
 if ls --color > /dev/null 2>&1; then # GNU `ls`
