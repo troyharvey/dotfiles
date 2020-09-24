@@ -140,6 +140,9 @@
 	# Include summaries of merged commits in newly created merge commit messages
 	log = true
 
+[pull]
+   rebase = false
+
 [push]
 
 	# Use the Git 1.x.x default to avoid errors on machines with old Git
@@ -180,3 +183,8 @@
 
 [gpg]
 	program = /usr/local/bin/gpg
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
