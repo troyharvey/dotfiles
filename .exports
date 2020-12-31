@@ -24,3 +24,16 @@ export MANPAGER='less -X';
 
 # Always enable colored `grep` output.
 export GREP_OPTIONS='--color=auto';
+
+# Go
+export GOPATH=/Users/troyharvey/go
+export PATH="$PATH:/Users/troyharvey/go/bin/"
+
+# Homebrew
+export PATH="/usr/local/sbin:$PATH"
+
+# Use Homebrew installed bash as user shell
+export SHELL="/usr/local/bin/bash"
+
+# Silence zsh nonsense in Catalina
+export BASH_SILENCE_DEPRECATION_WARNING=1

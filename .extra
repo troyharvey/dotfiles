@@ -16,30 +16,8 @@ fi
 source '/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/path.bash.inc'
 source '/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/completion.bash.inc'
 
-# Postgres.app
-export PATH=$PATH:/Applications/Postgres.app/Contents/Versions/latest/bin
-
 # direnv
 eval "$(direnv hook bash)"
-
-# Go
-export GOPATH=/Users/troyharvey/go
-export PATH="$PATH:/Users/troyharvey/go/bin/"
-
-# Homebrew
-export PATH="/usr/local/sbin:$PATH"
-
-# Use Homebrew installed bash as user shell
-export SHELL="/usr/local/bin/bash"
-
-# PHP Composer
-export PATH="$PATH:$HOME/.composer/vendor/bin"
-
-# Laravel Spark
-export PATH="$PATH:$HOME/.spark"
-
-# Silence zsh nonsense in Catalina
-export BASH_SILENCE_DEPRECATION_WARNING=1
 
 # Conda
 # >>> conda initialize >>>
