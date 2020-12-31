@@ -39,6 +39,10 @@ alias cda="composer dump-autoload"
 alias art="php artisan"
 alias mrs="php artisan migrate:refresh --seed"
 
+## Python
+
+alias conda-init="conda init "$(basename "${SHELL}")""
+
 # GIT STUFF
 
 alias g="git"
