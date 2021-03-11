@@ -26,14 +26,7 @@
 	"editor.codeActionsOnSave": {
 		"source.fixAll.eslint": true
 	},
-	"vetur.format.enable": false,
 	"javascript.updateImportsOnFileMove.enabled": "always",
-	"todo-tree.tree.showScanModeButton": false,
-	"vetur.validation.template": false,
-	"eslint.validate": [
-		"vue",
-		"html",
-		"javascript"
-	],
 	"workbench.colorTheme": "Shades of Purple",
+	"todo-tree.tree.showScanModeButton": false,
 }

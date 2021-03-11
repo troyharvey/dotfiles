@@ -1,10 +1,7 @@
-# Shortcuts
+## SHORTCUTS
+
 alias p="cd ~/Projects"
 alias g="git"
-
-# Projects
-alias resonate="cd ~/Projects/rr/app && gcloud config configurations activate resonate-recordings && gcloud container clusters get-credentials resonate-cluster"
-alias tts="cd ~/Projects/tts && gcloud config configurations activate tts"
 
 # Detect which `ls` flavor is in use
 if ls --color > /dev/null 2>&1; then # GNU `ls`
@@ -26,22 +23,12 @@ alias lsd="ls -lF ${colorflag} | grep --color=never '^d'"
 alias ls="command ls ${colorflag}"
 export LS_COLORS='no=00:fi=00:di=01;34:ln=01;36:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arj=01;31:*.taz=01;31:*.lzh=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.gz=01;31:*.bz2=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.avi=01;35:*.fli=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.ogg=01;35:*.mp3=01;35:*.wav=01;35:'
 
-## Strings
+## STRINGS
 
 alias sql="pbpaste | sqlformat - --reindent --indent_width 4 --comma_first True --use_space_around_operators --keywords=lower | pbcopy"
 alias json="pbpaste | jq | pbcopy"
 alias b64e="pbpaste | base64 | pbcopy"
 alias b64d="pbpaste | base64 --decode | pbcopy"
-
-## PHP
-
-alias cda="composer dump-autoload"
-alias art="php artisan"
-alias mrs="php artisan migrate:refresh --seed"
-
-## Python
-
-alias conda-init="conda init "$(basename "${SHELL}")""
 
 # GIT STUFF
 
@@ -61,7 +48,6 @@ alias gu="git reset HEAD~"
 # DOCKER STUFF
 
 alias dc="docker-compose"
-alias dcl="docker-compose -f config/compose/local.yml"
 
 # Enable aliases to be sudo’ed
 alias sudo='sudo '
