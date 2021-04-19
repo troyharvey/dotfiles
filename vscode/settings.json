@@ -4,7 +4,6 @@
 	"editor.fontLigatures": true,
 	"editor.minimap.enabled": false,
 	"editor.renderWhitespace": "all",
-	"editor.tabSize": 4,
 	"explorer.openEditors.visible": 0,
 	"extensions.ignoreRecommendations": false,
 	"files.exclude": {
@@ -14,19 +13,12 @@
 	"files.insertFinalNewline": true,
 	"files.trimTrailingWhitespace": true,
 	"terminal.integrated.copyOnSelection": true,
-	"terminal.integrated.fontFamily": "Fira Code",
+	"terminal.integrated.fontFamily": "FiraCode-Retina",
 	"terminal.integrated.rendererType": "dom",
 	"window.title": "${activeEditorMedium}${separator}${rootName}",
 	"window.zoomLevel": 1,
 	"workbench.activityBar.visible": false,
 	"workbench.statusBar.visible": true,
-	"git.decorations.enabled": false,
-	"editor.formatOnSave": true,
-	"editor.formatOnSaveMode": "modifications",
-	"editor.codeActionsOnSave": {
-		"source.fixAll.eslint": true
-	},
-	"javascript.updateImportsOnFileMove.enabled": "always",
 	"workbench.colorTheme": "Shades of Purple",
 	"todo-tree.tree.showScanModeButton": false,
 }
