@@ -37,3 +37,7 @@ export SHELL="/usr/local/bin/bash"
 
 # Silence zsh nonsense in Catalina
 export BASH_SILENCE_DEPRECATION_WARNING=1
+
+# Use the Homebrew curl instead of Apple's curl
+# https://unix.stackexchange.com/questions/192944/how-to-fix-curl-sslv3-alert-handshake-failure#comment932043_192957
+export PATH="/usr/local/opt/curl/bin:$PATH"
