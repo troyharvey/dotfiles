@@ -11,4 +11,3 @@ while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
 npm install --global git-open
 npm install --global json
 npm install --global jwt-cli
-npm install --global prettyjson
