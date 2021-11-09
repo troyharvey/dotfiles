@@ -4,7 +4,7 @@ See [dotfiles.github.io](https://dotfiles.github.io) for a full explanation of w
 
 ## Usage
 
-1. Install Homebrew.
+1. Install [Homebrew](https://brew.sh).
 1. Install curl.
 
         brew install curl
