@@ -175,14 +175,15 @@
 	insteadOf = "gist:"
 [user]
 	name = Troy Harvey
-	email = troyharvey@gmail.com
-	signingkey = F23DC4A53AF58A44
+	email = t.harvey@carta.com
+	signingkey = 3925C5282019C396
 
 [commit]
-	gpgsign = false
+	gpgsign = true
 
 [gpg]
 	program = /usr/local/bin/gpg
+
 [filter "lfs"]
 	clean = git-lfs clean -- %f
 	smudge = git-lfs smudge -- %f
