@@ -21,3 +21,15 @@ else
 fi
 unset __conda_setup
 # <<< conda initialize <<<
+
+# kubectx
+export KUBECONFIG=$HOME/.kube/config:$HOME/.kube/banyan
+
+# Google Cloud SDK
+source "/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/completion.bash.inc"
+source "$(brew --prefix)/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/path.bash.inc"
+
+# GitHub gpg commit signing. Restart agent to prevent this error:
+# error: gpg failed to sign the data
+# fatal: failed to write commit object
+pkill -9 gpg-agent
