@@ -1,0 +1,29 @@
+[username]
+disabled = true
+
+[aws]
+disabled = true
+
+[gcloud]
+disabled = true
+
+[python]
+disabled = true
+
+[git_status]
+disabled = true
+
+[conda]
+symbol = '⚡︎'
+format = '[$symbol]($style) '
+style = 'bold #FF628C'
+
+[directory]
+style = 'bold #9EFFFF'
+
+[git_branch]
+style = 'bold #FAD000'
+
+[character]
+success_symbol = '[＄](#A5FF90)'
+error_symbol = '[＄](#EC3A37F5)'
