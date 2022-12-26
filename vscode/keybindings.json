@@ -13,5 +13,8 @@
 		"command": "workbench.action.terminal.splitInActiveWorkspace",
 		"when": "terminalFocus"
 	},
-	{ "key": "cmd+l", "command": "workbench.action.gotoLine" }
+	{
+		"key": "cmd+l",
+		"command": "workbench.action.gotoLine"
+	}
 ]
