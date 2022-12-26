@@ -1,6 +1,7 @@
 {
+	"editor.copyWithSyntaxHighlighting": false,
 	"editor.detectIndentation": true,
-	"editor.fontFamily": "FiraCode-Retina",
+	"editor.fontFamily": "FiraCode Nerd Font Retina",
 	"editor.fontLigatures": true,
 	"editor.minimap.enabled": false,
 	"editor.renderWhitespace": "all",
@@ -12,13 +13,50 @@
 	},
 	"files.insertFinalNewline": true,
 	"files.trimTrailingWhitespace": true,
-	"terminal.integrated.copyOnSelection": true,
-	"terminal.integrated.fontFamily": "FiraCode-Retina",
-	"terminal.integrated.rendererType": "dom",
+	"python.linting.flake8Enabled": true,
+	"python.linting.mypyEnabled": true,
+	"python.linting.mypyPath": "/usr/local/bin/mypy",
+	"terminal.integrated.fontFamily": "FiraCode Nerd Font Mono",
+	"terminal.integrated.inheritEnv": false,
 	"window.title": "${activeEditorMedium}${separator}${rootName}",
-	"window.zoomLevel": 1,
 	"workbench.activityBar.visible": false,
 	"workbench.statusBar.visible": true,
 	"workbench.colorTheme": "Shades of Purple",
-	"todo-tree.tree.showScanModeButton": false,
+	"workbench.editorAssociations": {
+		"*.ipynb": "jupyter-notebook"
+	},
+	"git.autofetch": true,
+	"security.workspace.trust.untrustedFiles": "open",
+	"redhat.telemetry.enabled": true,
+	"python.defaultInterpreterPath": "/usr/local/bin/python3",
+	"notebook.cellToolbarLocation": {
+		"default": "right",
+		"jupyter-notebook": "left"
+	},
+	"[json]": {
+		"editor.defaultFormatter": "vscode.json-language-features"
+	},
+	"[html]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[javascript]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"editor.inlineSuggest.enabled": true,
+	"github.copilot.enable": {
+		"*": true,
+		"plaintext": true,
+	},
+	"terminal.integrated.defaultProfile.osx": "zsh",
+	"go.toolsManagement.autoUpdate": true,
+	"terminal.integrated.copyOnSelection": true,
+	"githubPullRequests.pullBranch": "never",
+	"editor.formatOnSave": true,
+	"python.formatting.provider": "black",
+	"python.condaPath": "/usr/local/Caskroom/miniconda/base/condabin/conda",
+	"python.linting.flake8Path": "${workspaceFolder}/pflake8",
+	"window.zoomLevel": 1,
+	"[markdown]": {
+		"editor.formatOnSave": false
+	}
 }

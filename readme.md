@@ -14,8 +14,8 @@ See [dotfiles.github.io](https://dotfiles.github.io) for a full explanation of w
         curl -O https://raw.githubusercontent.com/troyharvey/dotfiles/master/Brewfile
         brew bundle
 
-1. Switch the default shell in iTerm to `/opt/homebrew/bin/bash`
-1. Prompt, bash completion, bash aliases, etc. (Each time you make changes, just run this command again.)
+1. Switch the default shell in iTerm to `/usr/local/bin/zsh`
+1. Prompt, zsh completion, zsh aliases, etc. (Each time you make changes, just run this command again.)
 
         ./bootstrap.sh
 
@@ -26,6 +26,8 @@ See [dotfiles.github.io](https://dotfiles.github.io) for a full explanation of w
 1. OS X defaults.
 
         ./.osx
+
+1. Install the [snazzy iTerm2 theme](https://github.com/sindresorhus/iterm2-snazzy).
 
 ## Maintenance
 
