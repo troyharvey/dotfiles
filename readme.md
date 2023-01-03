@@ -7,29 +7,21 @@
 See [dotfiles.github.io](https://dotfiles.github.io) for a full explanation of what's going on here.
 
 1. Install [Homebrew](https://brew.sh).
-1. Install curl.
+1. Install all the software in `Brewfile`.
 
-        brew install curl
-
-1. Save the `Brewfile` and run bundle.
-
-        curl -O https://raw.githubusercontent.com/troyharvey/dotfiles/master/Brewfile
         brew bundle
 
 1. Switch the default shell in iTerm to `/usr/local/bin/zsh`
-1. Prompt, zsh completion, zsh aliases, etc. (Each time you make changes, just run this command again.)
+1. Copy all the dotfiles to `~/`
 
         ./bootstrap.sh
 
-1. Additional packages.
-
-        ./npm.sh
-
-1. OS X defaults.
+1. Override the macOS defaults.
 
         ./.osx
 
-1. Install the [snazzy iTerm2 theme](https://github.com/sindresorhus/iterm2-snazzy).
+1. Import `shades-of-purple.itermcolors` into iTerm2.
+1. Install Visual Studio Code extensions in `vscode`.
 
 ## Maintenance
 
