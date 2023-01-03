@@ -1,8 +1,10 @@
-![](http://i.giphy.com/KCh9Kkf2MILK0.gif)
-
-See [dotfiles.github.io](https://dotfiles.github.io) for a full explanation of what's going on here.
+<p align="center">
+        <img width="692" alt="image" src="https://user-images.githubusercontent.com/530530/210425970-ccb1ad92-99fa-480b-be52-d0c7c0525d7e.png">
+</p>
 
 ## Usage
+
+See [dotfiles.github.io](https://dotfiles.github.io) for a full explanation of what's going on here.
 
 1. Install [Homebrew](https://brew.sh).
 1. Install curl.
