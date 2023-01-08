@@ -2,7 +2,7 @@
 
 alias p="cd ~/Projects"
 alias g="git"
-alias kanban="open https://carta1.atlassian.net/jira/software/c/projects/DA/boards/642?quickFilter=1444&assignee=607eeab27495ff006aee01e5"
+alias kanban="open -a Safari 'https://carta1.atlassian.net/jira/software/c/projects/DA/boards/642?quickFilter=1444'"
 
 # Always use color output for `ls`
 alias ls="command ls --color"
@@ -17,7 +17,7 @@ alias b64d="pbpaste | base64 --decode | pbcopy"
 # GIT STUFF
 
 alias g="git"
-alias ga="git add ."
+alias ga="git add --all --ignore-removal ."
 alias gc="git checkout"
 alias gcam="git commit -am"
 alias gcb="git checkout -b"
