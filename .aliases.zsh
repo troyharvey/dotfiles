@@ -1,8 +1,7 @@
 ## SHORTCUTS
 
 alias p="cd ~/Projects"
-alias g="git"
-alias kanban="open -a Safari 'https://carta1.atlassian.net/jira/software/c/projects/DA/boards/642?quickFilter=1444'"
+alias kanban="open -a Safari 'https://carta1.atlassian.net/jira/software/c/projects/PRFL/boards/518'"
 
 # Always use color output for `ls`
 alias ls="command ls --color"
