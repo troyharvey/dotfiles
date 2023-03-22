@@ -47,3 +47,6 @@ export CPPFLAGS="-I/usr/local/opt/openjdk/include"
 # Java (jenv)
 export PATH="$HOME/.jenv/bin:$PATH"
 eval "$(jenv init -)"
+
+# GitHub Copoilot CLI
+eval "$(github-copilot-cli alias -- "$0")"
