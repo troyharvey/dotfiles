@@ -13,6 +13,15 @@ disabled = true
 [git_status]
 disabled = true
 
+[docker_context]
+disabled = true
+
+[nodejs]
+disabled = true
+
+[package]
+disabled = true
+
 [conda]
 symbol = '⚡︎'
 format = '[$symbol]($style) '

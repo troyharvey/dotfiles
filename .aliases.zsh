@@ -2,6 +2,7 @@
 
 alias p="cd ~/Projects"
 alias kanban="open -a Safari 'https://carta1.atlassian.net/jira/software/c/projects/PRFL/boards/518'"
+alias profile="cd ~/Projects/profile-service"
 
 # Always use color output for `ls`
 alias ls="command ls --color"
