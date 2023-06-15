@@ -2,7 +2,10 @@
 
 alias p="cd ~/Projects"
 alias kanban="open -a Safari 'https://carta1.atlassian.net/jira/software/c/projects/PRFL/boards/518'"
-alias profile="cd ~/Projects/profile-service"
+alias profile="cd ~/Projects/profile-service;conda activate profile-service"
+alias ds-api="cd ~/Projects/ds-api;conda activate ds-api"
+alias scratch="pbpaste > ~/Projects/scratch/$(date -u +"%Y-%m-%dT%H:%M:%SZ").txt"
+
 
 # Always use color output for `ls`
 alias ls="command ls --color"
@@ -29,6 +32,7 @@ alias gs="git status"
 alias GS="git status"
 alias gne="git commit --amend --no-edit"
 alias gu="git reset HEAD~"
+alias gyolo="git fetch;git add .;git commit --amend --no-edit;git rebase origin/main;git push origin -f;"
 
 # KUBERNETES STUFF
 
