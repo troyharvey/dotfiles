@@ -50,3 +50,10 @@ eval "$(jenv init -)"
 
 # GitHub Copoilot CLI
 eval "$(github-copilot-cli alias -- "$0")"
+
+# bun completions
+[ -s "/Users/troyharvey/.bun/_bun" ] && source "/Users/troyharvey/.bun/_bun"
+
+# bun
+export BUN_INSTALL="$HOME/.bun"
+export PATH="$BUN_INSTALL/bin:$PATH"
