@@ -13,13 +13,9 @@
 	},
 	"files.insertFinalNewline": true,
 	"files.trimTrailingWhitespace": true,
-	"python.linting.flake8Enabled": true,
-	"python.linting.mypyEnabled": true,
-	"python.linting.mypyPath": "/usr/local/bin/mypy",
 	"terminal.integrated.fontFamily": "FiraCode Nerd Font Mono",
 	"terminal.integrated.inheritEnv": false,
 	"window.title": "${activeEditorMedium}${separator}${rootName}",
-	"workbench.activityBar.visible": false,
 	"workbench.statusBar.visible": true,
 	"workbench.colorTheme": "Shades of Purple",
 	"workbench.editorAssociations": {
@@ -46,17 +42,29 @@
 	"github.copilot.enable": {
 		"*": true,
 		"plaintext": true,
+		"markdown": true,
+		"scminput": false,
+		"yaml": false
 	},
 	"terminal.integrated.defaultProfile.osx": "zsh",
 	"go.toolsManagement.autoUpdate": true,
 	"terminal.integrated.copyOnSelection": true,
 	"githubPullRequests.pullBranch": "never",
 	"editor.formatOnSave": true,
-	"python.formatting.provider": "black",
 	"python.condaPath": "/usr/local/Caskroom/miniconda/base/condabin/conda",
-	"python.linting.flake8Path": "${workspaceFolder}/pflake8",
-	"window.zoomLevel": 1,
 	"[markdown]": {
 		"editor.formatOnSave": false
-	}
+	},
+	"[yaml]": {
+		"editor.formatOnSave": false
+	},
+	"[python]": {
+		"editor.formatOnType": true
+	},
+	"isort.check": true,
+	"isort.showNotifications": "always",
+	"terminal.integrated.tabs.enabled": false,
+	"python.analysis.autoImportCompletions": true,
+	"window.zoomLevel": 1,
+	"helm-intellisense.lintFileOnSave": false
 }
