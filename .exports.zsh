@@ -14,20 +14,8 @@ export MANPAGER='less -X';
 # Always enable colored `grep` output.
 export GREP_OPTIONS='--color=auto';
 
-# >>> conda initialize >>>
-# !! Contents within this block are managed by 'conda init' !!
-__conda_setup="$('$(brew --prefix)/Caskroom/miniconda/base/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
-if [ $? -eq 0 ]; then
-    eval "$__conda_setup"
-else
-    if [ -f "$(brew --prefix)/Caskroom/miniconda/base/etc/profile.d/conda.sh" ]; then
-        . "$(brew --prefix)/Caskroom/miniconda/base/etc/profile.d/conda.sh"
-    else
-        export PATH="$(brew --prefix)/Caskroom/miniconda/base/bin:$PATH"
-    fi
-fi
-unset __conda_setup
-# <<< conda initialize <<<
+# Conda
+eval "$(conda "shell.$(basename "${SHELL}")" hook)"
 
 # direnv.net (Environment variables)
 eval "$(direnv hook zsh)"
