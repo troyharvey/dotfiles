@@ -15,7 +15,7 @@ export MANPAGER='less -X';
 export GREP_OPTIONS='--color=auto';
 
 # Conda
-eval "$(conda "shell.$(basename "${SHELL}")" hook)"
+eval "$(conda shell.zsh hook)"
 
 # direnv.net (Environment variables)
 eval "$(direnv hook zsh)"
