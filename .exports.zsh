@@ -45,3 +45,6 @@ eval "$(github-copilot-cli alias -- "$0")"
 # bun
 export BUN_INSTALL="$HOME/.bun"
 export PATH="$BUN_INSTALL/bin:$PATH"
+
+# direnv
+export DIRENV_LOG_FORMAT=
