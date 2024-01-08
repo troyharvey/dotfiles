@@ -19,6 +19,7 @@ eval "$(conda shell.zsh hook)"
 
 # direnv.net (Environment variables)
 eval "$(direnv hook zsh)"
+export DIRENV_LOG_FORMAT=
 
 # GNU "make" has been installed as "gmake".
 # If you need to use it as "make", you can add a "gnubin" directory
@@ -45,6 +46,3 @@ eval "$(github-copilot-cli alias -- "$0")"
 # bun
 export BUN_INSTALL="$HOME/.bun"
 export PATH="$BUN_INSTALL/bin:$PATH"
-
-# direnv
-export DIRENV_LOG_FORMAT=
