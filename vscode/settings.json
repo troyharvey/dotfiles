@@ -40,11 +40,11 @@
 	},
 	"editor.inlineSuggest.enabled": true,
 	"github.copilot.enable": {
-		"*": true,
+		"*": false,
 		"plaintext": true,
 		"markdown": true,
 		"scminput": false,
-		"yaml": false
+		"yaml": true
 	},
 	"terminal.integrated.defaultProfile.osx": "zsh",
 	"go.toolsManagement.autoUpdate": true,
@@ -58,13 +58,9 @@
 	"[yaml]": {
 		"editor.formatOnSave": false
 	},
-	"[python]": {
-		"editor.formatOnType": true
-	},
-	"isort.check": true,
-	"isort.showNotifications": "always",
 	"terminal.integrated.tabs.enabled": false,
 	"python.analysis.autoImportCompletions": true,
-	"window.zoomLevel": 1,
-	"helm-intellisense.lintFileOnSave": false
+	"helm-intellisense.lintFileOnSave": false,
+	"workbench.layoutControl.enabled": false,
+	"workbench.activityBar.location": "hidden"
 }
