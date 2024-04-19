@@ -11,7 +11,7 @@ See [dotfiles.github.io](https://dotfiles.github.io) for a full explanation of w
 
         brew bundle
 
-1. Switch the default shell in iTerm to `/usr/local/bin/zsh`
+1. Switch the default shell in iTerm to `/opt/homebrew/bin/zsh`
 1. Copy all the dotfiles to `~/`
 
         ./bootstrap.sh
