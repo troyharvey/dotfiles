@@ -156,7 +156,7 @@
 
 [url "git@github.com:"]
 
-	insteadOf = "gh:"
+	insteadOf = https://github.com/
 	pushInsteadOf = "github:"
 	pushInsteadOf = "git://github.com/"
 
@@ -173,16 +173,6 @@
 [url "git://gist.github.com/"]
 
 	insteadOf = "gist:"
-[user]
-	name = Troy Harvey
-	email = t.harvey@carta.com
-	signingkey = 3925C5282019C396
-
-[commit]
-	gpgsign = true
-
-[gpg]
-	program = /usr/local/bin/gpg
 
 [filter "lfs"]
 	clean = git-lfs clean -- %f
@@ -192,3 +182,27 @@
 
  [init]
 	defaultBranch = main
+
+[user]
+	name = Troy Harvey
+	email = t.harvey@carta.com
+	signingkey = ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIOjg4Np4KY9jBuW5ea4YZzT6CfJT0lPxMRAmdGp+3Nn/
+
+[commit]
+	gpgsign = true
+
+[tag]
+	gpgsign = true
+
+[gpg]
+	# This is the crucial setting that switches the signing method
+	format = ssh
+
+[gpg "ssh"]
+	program = /Applications/1Password.app/Contents/MacOS/op-ssh-sign
+[credential "https://github.com"]
+	helper = 
+	helper = !/opt/homebrew/bin/gh auth git-credential
+[credential "https://gist.github.com"]
+	helper = 
+	helper = !/opt/homebrew/bin/gh auth git-credential

@@ -1,3 +1,9 @@
+# Shades of Purple color palette
+# https://github.com/ahmadawais/shades-of-purple-vscode?tab=readme-ov-file#color-palette-reference
+
+format = """$all"""
+right_format = """$kubernetes"""
+
 [username]
 disabled = true
 
@@ -27,12 +33,18 @@ symbol = '⚡︎'
 format = '[$symbol]($style) '
 style = 'bold #FF628C'
 
+[kubernetes]
+disabled = false
+format = '[☸ $context](#A599E9) '
+detect_files = ['Dockerfile', 'docker-compose.yml']
+
 [directory]
 style = 'bold #9EFFFF'
 
 [git_branch]
 style = 'bold #FAD000'
+ignore_branches = ['main']
 
 [character]
-success_symbol = '[＄](#A5FF90)'
-error_symbol = '[＄](#EC3A37F5)'
+success_symbol = '[#](#A5FF90)'
+error_symbol = '[#](#EC3A37F5)'
