@@ -1,66 +1,85 @@
 {
-	"editor.copyWithSyntaxHighlighting": false,
-	"editor.detectIndentation": true,
-	"editor.fontFamily": "FiraCode Nerd Font Retina",
-	"editor.fontLigatures": true,
-	"editor.minimap.enabled": false,
-	"editor.renderWhitespace": "all",
-	"explorer.openEditors.visible": 0,
-	"extensions.ignoreRecommendations": false,
-	"files.exclude": {
-		"**/__pycache__": true,
-		"**/*.pyc": true
-	},
-	"files.insertFinalNewline": true,
-	"files.trimTrailingWhitespace": true,
-	"terminal.integrated.fontFamily": "FiraCode Nerd Font Mono",
-	"terminal.integrated.inheritEnv": false,
-	"window.title": "${activeEditorMedium}${separator}${rootName}",
-	"workbench.statusBar.visible": true,
-	"workbench.colorTheme": "Shades of Purple",
-	"workbench.editorAssociations": {
-		"*.ipynb": "jupyter-notebook"
-	},
-	"git.autofetch": true,
-	"security.workspace.trust.untrustedFiles": "open",
-	"redhat.telemetry.enabled": true,
-	"python.defaultInterpreterPath": "/usr/local/bin/python3",
-	"notebook.cellToolbarLocation": {
-		"default": "right",
-		"jupyter-notebook": "left"
-	},
-	"[json]": {
-		"editor.defaultFormatter": "vscode.json-language-features"
-	},
-	"[html]": {
-		"editor.defaultFormatter": "esbenp.prettier-vscode"
-	},
-	"[javascript]": {
-		"editor.defaultFormatter": "esbenp.prettier-vscode"
-	},
-	"editor.inlineSuggest.enabled": true,
-	"github.copilot.enable": {
-		"*": false,
-		"plaintext": true,
-		"markdown": true,
-		"scminput": false,
-		"yaml": true
-	},
-	"terminal.integrated.defaultProfile.osx": "zsh",
-	"go.toolsManagement.autoUpdate": true,
-	"terminal.integrated.copyOnSelection": true,
-	"githubPullRequests.pullBranch": "never",
-	"editor.formatOnSave": true,
-	"python.condaPath": "/usr/local/Caskroom/miniconda/base/condabin/conda",
-	"[markdown]": {
-		"editor.formatOnSave": false
-	},
-	"[yaml]": {
-		"editor.formatOnSave": false
-	},
-	"terminal.integrated.tabs.enabled": false,
-	"python.analysis.autoImportCompletions": true,
-	"helm-intellisense.lintFileOnSave": false,
-	"workbench.layoutControl.enabled": false,
-	"workbench.activityBar.location": "hidden"
+    "editor.copyWithSyntaxHighlighting": false,
+    "editor.detectIndentation": true,
+    "editor.fontFamily": "FiraCode Nerd Font Retina",
+    "editor.fontLigatures": true,
+    "editor.renderWhitespace": "all",
+    "extensions.ignoreRecommendations": false,
+    "files.exclude": {
+        "**/__pycache__": true,
+        "**/*.pyc": true
+    },
+    "files.insertFinalNewline": true,
+    "files.trimTrailingWhitespace": true,
+    "terminal.integrated.fontFamily": "FiraCode Nerd Font Mono",
+    "terminal.integrated.inheritEnv": false,
+    "window.title": "${activeEditorMedium}${separator}${rootName}",
+    "workbench.statusBar.visible": true,
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter-notebook"
+    },
+    "git.autofetch": true,
+    "security.workspace.trust.untrustedFiles": "open",
+    "notebook.cellToolbarLocation": {
+        "default": "right",
+        "jupyter-notebook": "left"
+    },
+    "editor.inlineSuggest.enabled": true,
+    "github.copilot.enable": {
+        "*": true,
+        "plaintext": true,
+        "markdown": true,
+        "scminput": false,
+        "python": true,
+        "yaml": false
+    },
+    "terminal.integrated.defaultProfile.osx": "zsh",
+    "terminal.integrated.copyOnSelection": true,
+    "[markdown]": {
+        "editor.formatOnSave": false
+    },
+    "[yaml]": {
+        "editor.formatOnSave": false
+    },
+    "[terraform]": {
+        "editor.formatOnSave": true
+    },
+    "python.analysis.autoImportCompletions": true,
+    "python.envFile": "${workspaceFolder}/.env",
+    "helm-intellisense.lintFileOnSave": false,
+    "workbench.layoutControl.enabled": false,
+    "github.copilot.editor.enableAutoCompletions": true,
+    "editor.minimap.enabled": false,
+    "workbench.activityBar.location": "hidden",
+    "circleci.hostUrl": "",
+    "chat.agent.enabled": true,
+    "dbt.onboardedMcpServer": true,
+    "dbt.enableMcpDataSourceQueryTools": true,
+    "altimate.onboardedMcpServer": true,
+    "github.copilot.nextEditSuggestions.enabled": true,
+    "atlascode.jira.enabled": true,
+    "[dockercompose]": {
+        "editor.insertSpaces": true,
+        "editor.tabSize": 2,
+        "editor.autoIndent": "advanced",
+        "editor.quickSuggestions": {
+            "other": true,
+            "comments": false,
+            "strings": true
+        },
+        "editor.defaultFormatter": "redhat.vscode-yaml"
+    },
+    "[github-actions-workflow]": {
+        "editor.defaultFormatter": "redhat.vscode-yaml"
+    },
+    "workbench.secondarySideBar.defaultVisibility": "hidden",
+    "makefile.configureOnOpen": false,
+    "docker.extension.enableComposeLanguageServer": false,
+    "atlascode.rovodev.showEntitlementNotifications": false,
+    "terminal.integrated.suggest.enabled": false,
+    "claudeCode.preferredLocation": "sidebar",
+    "claudeCode.useTerminal": true,
+    "workbench.colorTheme": "Shades of Purple (Super Dark)",
+    "git.blame.editorDecoration.enabled": true,
+    "git.blame.statusBarItem.enabled": false
 }
